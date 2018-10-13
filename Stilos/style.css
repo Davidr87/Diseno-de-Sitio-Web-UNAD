@@ -1,0 +1,74 @@
+body{
+padding: 0px;
+font-family: Arial;
+
+}
+
+@font-face{
+font-family:fuente1;
+src:url(angsa.ttf);
+}
+div{
+font-family:fuente1;
+}
+
+
+
+body h{
+padding: 0px;
+font-family: Arial;
+color: #F03;
+
+}
+
+
+#header{
+border: 1px solid black;
+color: white;
+width: 85%;
+height: 120px;
+background: #005883;
+text-align: center;
+margin: 0px auto;
+}
+
+
+#footer{
+	height: 40px;
+	border: 0px solid grey;
+	font-size: 14px;	
+	text-align: center;
+
+}
+
+#menu{
+	background-color:#F47920;
+	width: 85%;
+	margin-left: 100px;
+}
+
+#menu ul{
+	
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#menu ul li{
+	display: inline-block;
+}
+
+#menu ul li a {
+	
+	color: white;
+	display:black;
+	padding:10px 100px;
+	display: block;
+	text-decoration: none;
+	 font-family: italic;
+}
+
+#menu ul li a:hover {
+	background-color:#B3B3B3;
+}
+
