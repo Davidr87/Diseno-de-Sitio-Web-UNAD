@@ -11,10 +11,10 @@ overflow:hidden;
 position: relative;
 }
 
-/* @font-face{
+@font-face{
 font-family:fuente1;
-src:url(angsa.ttf);
-} */
+src:url(FRABK.ttf);
+}
 
 
 #logo img{
@@ -29,8 +29,7 @@ src:url(angsa.ttf);
 #Titulo {
 	margin-top: 50px;
 	color: #005883;
-	font:Arial;
-	font-size: 5;
+	font-family:fuente1;
 	text-align: center;
 	width: 50;
 }
@@ -80,7 +79,7 @@ margin: 0px auto;
 	padding:10px 50px; 
 	display: block;
 	text-decoration: none;
-    font-family: Arial;
+    font-family: fuente1;
 	
 }
 
@@ -92,7 +91,7 @@ margin: 0px auto;
 	padding:10px 50px;
 	display: block;
 	text-decoration: none;
-    font-family: Arial;
+    font-family: fuente1;
 
 }
  
@@ -112,7 +111,7 @@ margin: 0px auto;
 	padding:10px 50px; 
 	display: block;
 	text-decoration: none;
-    font-family: Arial;
+    font-family: fuente1;
 }
 
 
@@ -155,7 +154,7 @@ margin: 0px auto;
 	padding:10px 50px;
 	display: block;
 	text-decoration: none;
-    font-family: Arial;
+    font-family: fuente1;
 }
 
 .SubMenu ul li a:hover {
@@ -191,7 +190,7 @@ aside{
 	text-align:center;
 	color:#005883;
 	font-weight: bold;
-	font-family: Arial;
+	font-family: fuente1;
 	padding: 5px;
 	
 	
@@ -260,7 +259,7 @@ height: 300px;
 div.subapartado{
 	width:600px;
 	min-height:40px;
-	background-color:green;
+
 }
 
 div.Titulo1{
@@ -268,7 +267,9 @@ div.Titulo1{
 	height:40px;
 	background: #005883;
 	overflow: hidden;
-	font-family: Arial black;
+	font-family: fuente1;
+	font-weight: bold;
+	font-size: 19px;
 
 }
 
@@ -281,7 +282,8 @@ div.Info1{
 	width:600px;
 	height:0px;
 	background-color:#43C7F4;
-	font-family: Arial;
+	font-size: 20px;
+	font-family: fuente1;
 	overflow: hidden;
 }
 
@@ -309,18 +311,27 @@ div.subapartado:hover div.Info1{
 #boton{
 	margin-left:200px;
 	border: 2px solid #000;
-	font:bold 23px Vedana;
+	font-family: fuente1;
+	font-size: 23px;
 	padding:20px 60px 20px 60px;
 	cursor: pointer;
-	background-color:#7f8c8d;
-	margin-top:600px;
+	background-color:#50B748;
+	margin-top:610px;
     position:absolute;
-	
-	
+	font-family: fuente1;
+		
 }
+
+#boton:hover{
+	background-color:#43C7F4;
+
+		
+}
+
+
 
 .miframe{
 	position:absolute;
-	margin-top:90px;
+	margin-top:100px;
 	
 }
