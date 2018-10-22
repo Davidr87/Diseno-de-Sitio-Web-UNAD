@@ -81,6 +81,7 @@ margin: 0px auto;
 	display: block;
 	text-decoration: none;
     font-family: Arial;
+	
 }
 
  
@@ -91,12 +92,14 @@ margin: 0px auto;
 	padding:10px 50px;
 	display: block;
 	text-decoration: none;
-    font-family: Arial;;
+    font-family: Arial;
+
 }
  
  
 #MemuPrincipal ul li a:hover {
 	background-color:#B3B3B3;
+		
 }
 
 
@@ -293,16 +296,31 @@ div.subapartado:hover div.Info1{
 	height:120px;
 } 
 
-
-#footer p{
+ #footer {
 	border: 0px solid grey;
     margin: 880px 0px 80px 0px;
 	border-style: solid;
 	font-family: Arial;
 	font-size: 12px;	
-	text-align: center;/* 
-    position: absolute;
-/*     width: 100%;
-    height: 10px; */ */
+	text-align: center;
 
+} 
+
+#boton{
+	margin-left:200px;
+	border: 2px solid #000;
+	font:bold 23px Vedana;
+	padding:20px 60px 20px 60px;
+	cursor: pointer;
+	background-color:#7f8c8d;
+	margin-top:600px;
+    position:absolute;
+	
+	
+}
+
+.miframe{
+	position:absolute;
+	margin-top:90px;
+	
 }

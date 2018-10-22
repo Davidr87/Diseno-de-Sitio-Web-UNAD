@@ -10,9 +10,23 @@
 <meta name="author" content="UNAD"/>
 <meta charset="utf-8">
 <link rel="stylesheet" href="Stilos\style.css" type="text/css" />
-
-
 </head>
+<script type="text/javascript">
+   function mostrar(id)
+        {
+            var objeto=document.getElementById(id)
+            if(objeto.style.display=="block")
+                objeto.style.display="none";
+            else
+                objeto.style.display="block";
+        }
+    </script>
+
+
+<script type="text/javascript">
+function mostrar2(){
+document.getElementById('oculto').style.display = 'block';}
+</script>
 
 
 <body>
@@ -70,24 +84,21 @@
 <div id="Video"> 
 <p > VIDEO TUTORIALES </p>
 </div>
-
 <iframe width="100%" height="207" src="https://www.youtube.com/embed/QC9_8nRNNHA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</a>
-	</aside>
+
+		</aside>
 	
 	<section>
-<div id="Video"> 
-<p > Mi mapa interactivo<</p>
+	<input id="boton" type="button" onclick="mostrar('contenido2')"  value="Cambiar Actividad">
+ 
 
-<iframe src='https://es.educaplay.com/es/recursoseducativos/3715943/html5/mi_mapa_interactivo.htm' width='680' height='500' frameborder='0' rows="100,*"></iframe><a href='https://es.educaplay.com/es/recursoseducativos/3715943/mi_mapa_interactivo.htm'>
-	
-	<!-- <input type="button" value="texto del botón" onClick="parent.nucleo.location='iframe02.html'">  -->
-	
-	<p >relacionar CSS3 y HTML5</p>
-	<iframe src='https://es.educaplay.com/es/recursoseducativos/3657387/html5/relacionar_css3_y_html5.htm' width='680' height='500' frameborder='0'></iframe><a href='https://es.educaplay.com/es/recursoseducativos/3657387/relacionar_css3_y_html5.htm'>
-	
-	</div>
+	<iframe id="contenido1" class='miframe' src='https://es.educaplay.com/es/recursoseducativos/3715943/html5/mi_mapa_interactivo.htm' width='680' height='500' frameborder='0' rows="100,*"></iframe>
+    <iframe id="contenido2" class='miframe' src='https://es.educaplay.com/es/recursoseducativos/3657387/html5/relacionar_css3_y_html5.htm' width='680' height='500' frameborder='0' rows="100,*"></iframe>
+
 	</section>
+
+		
 	
 	
 	<footer>   
@@ -95,8 +106,7 @@
 	 <p> 2018 Projecto creación OVI. Todos los derechos reservados estudiantes de la UNAD</p>
 	</div>			
 	</footer>
-</div>			
-
+	
 
 </body>
 
