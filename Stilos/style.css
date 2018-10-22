@@ -11,10 +11,10 @@ overflow:hidden;
 position: relative;
 }
 
-@font-face{
+/* @font-face{
 font-family:fuente1;
 src:url(angsa.ttf);
-}
+} */
 
 
 #logo img{
@@ -29,7 +29,7 @@ src:url(angsa.ttf);
 #Titulo {
 	margin-top: 50px;
 	color: #005883;
-	font:fuente1;
+	font:Arial;
 	font-size: 5;
 	text-align: center;
 	width: 50;
@@ -80,7 +80,7 @@ margin: 0px auto;
 	padding:10px 50px; 
 	display: block;
 	text-decoration: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: Arial;
 }
 
  
@@ -91,7 +91,7 @@ margin: 0px auto;
 	padding:10px 50px;
 	display: block;
 	text-decoration: none;
-    font-family: 'Open Sans',sans-serif;;
+    font-family: Arial;;
 }
  
  
@@ -109,7 +109,7 @@ margin: 0px auto;
 	padding:10px 50px; 
 	display: block;
 	text-decoration: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: Arial;
 }
 
 
@@ -152,7 +152,7 @@ margin: 0px auto;
 	padding:10px 50px;
 	display: block;
 	text-decoration: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: Arial;
 }
 
 .SubMenu ul li a:hover {
@@ -188,7 +188,7 @@ aside{
 	text-align:center;
 	color:#005883;
 	font-weight: bold;
-	font-family: 'Open Sans',sans-serif;
+	font-family: Arial;
 	padding: 5px;
 	
 	
@@ -265,10 +265,8 @@ div.Titulo1{
 	height:40px;
 	background: #005883;
 	overflow: hidden;
-	font-weight: bold;
-	font-family: 'Open Sans',sans-serif;
-	
-    /* font-size: 16px; */
+	font-family: Arial black;
+
 }
 
 p.psrrafo1{
@@ -279,9 +277,8 @@ p.psrrafo1{
 div.Info1{
 	width:600px;
 	height:0px;
-	background-color:#009ed4;
-	    font-family: 'Open Sans',sans-serif;
-    /* font-size: 16px; */
+	background-color:#43C7F4;
+	font-family: Arial;
 	overflow: hidden;
 }
 
@@ -301,7 +298,7 @@ div.subapartado:hover div.Info1{
 	border: 0px solid grey;
     margin: 880px 0px 80px 0px;
 	border-style: solid;
-	font-family: 'Open Sans',sans-serif;
+	font-family: Arial;
 	font-size: 12px;	
 	text-align: center;/* 
     position: absolute;
