@@ -520,3 +520,20 @@ div#sellos{
 	position: center;
 }	
 
+#divmulti2html{
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #F03
+
+}
+
+#divmulti3html{
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: rgb(255, 102, 0)
+
+}
