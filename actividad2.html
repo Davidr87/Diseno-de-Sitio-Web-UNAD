@@ -10,9 +10,23 @@
 <meta name="author" content="UNAD"/>
 <meta charset="utf-8">
 <link rel="stylesheet" href="Stilos\style.css" type="text/css" />
-
-
 </head>
+<script type="text/javascript">
+   function mostrar(id)
+        {
+            var objeto=document.getElementById(id)
+            if(objeto.style.display=="block")
+                objeto.style.display="none";
+            else
+                objeto.style.display="block";
+        }
+    </script>
+
+
+<script type="text/javascript">
+function mostrar2(){
+document.getElementById('oculto').style.display = 'block';}
+</script>
 
 
 <body>
@@ -48,15 +62,15 @@
 				</li>
 			  <li><a>MULTIMEDIA</a>
 			   <ul>
-			  		<li><a href="lectura1.html">MULTIMEDIA 1</a></li>
-					<li><a href="lectura1.html">MULTIMEDIA 2</a></li>
+			  		<li><a href="multimedia1.html">MULTIMEDIA 1</a></li>
+					<li><a href="multimedia2.html">MULTIMEDIA 2</a></li>
 				</ul>
 			  </li>
 			  <li><a>ACTIVIDADES</a>
 				 <ul>
 					<li><a href="actividad1.html">ACTIVIDAD 1</a></li>
 					<li><a href="actividad2.html">ACTIVIDAD 2</a></li>
-					<li><a href="actividad2.html">ACTIVIDAD 3</a></li>
+					<li><a href="actividad3.html">ACTIVIDAD 3</a></li>
 				</ul>
 			  </li>
 			  <li><a href="pagina3.html">AUTORES</a></li>
@@ -70,23 +84,36 @@
 <div id="Video"> 
 <p > VIDEO TUTORIALES </p>
 </div>
-
 <iframe width="100%" height="207" src="https://www.youtube.com/embed/QC9_8nRNNHA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</a>
-	</aside>
+
+		</aside>
 	
 	<section>
+	
+	<div id="Titulo_actividades">
+	<p> ACTIVIDADES 3 Y 4</p>
+	<div>
+	
+	
+	<input id="boton" type="button" onclick="mostrar('contenido2')"  value="Cambiar Actividad">
+ 
 
+	<iframe id="contenido1" class='miframe' src='https://es.educaplay.com/es/recursoseducativos/3656579/html5/curcigrama_html' width='680' height='500' frameborder='0' rows="100,*"></iframe>
+
+	<iframe id="contenido2" class='miframe' src='https://es.educaplay.com/es/recursoseducativos/3027710/html5/diseno_de_sitios_web.htm' width='680' height='500' frameborder='0' rows="100,*"></iframe>
 
 	</section>
+
+		
+	
 	
 	<footer>   
 	<div id="footer" >
 	 <p> 2018 Projecto creación OVI. Todos los derechos reservados estudiantes de la UNAD</p>
 	</div>			
 	</footer>
-</div>			
-
+	
 
 </body>
 
