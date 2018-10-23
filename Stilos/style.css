@@ -191,9 +191,7 @@ aside{
 	color:#005883;
 	font-weight: bold;
 	font-family: fuente1;
-	padding: 5px;
-	
-	
+	padding: 5px;	
 }
 
 #wrapper{
@@ -309,16 +307,20 @@ div.subapartado:hover div.Info1{
 } 
 
 #boton{
-	margin-left:200px;
+	margin-left:230px;
 	border: 2px solid #000;
 	font-family: fuente1;
 	font-size: 23px;
-	padding:20px 60px 20px 60px;
+	padding:20px 20px 20px 20px;
 	cursor: pointer;
-	background-color:#50B748;
-	margin-top:610px;
+	background-color:#F0B429;
+	margin-top:590px;
     position:absolute;
 	font-family: fuente1;
+<<<<<<< HEAD
+=======
+    border-radius:20px;		
+>>>>>>> 54d764262a5971a79a51b54c86d3614f8c9d43eb
 }
 
 #boton:hover{
@@ -327,6 +329,7 @@ div.subapartado:hover div.Info1{
 
 .miframe{
 	position:absolute;
+<<<<<<< HEAD
 	margin-top:100px;
 }
 
@@ -386,3 +389,26 @@ div.subapartado:hover div.Info1{
 	visibility: visible;
 	opacity: 1;
 }
+=======
+	margin-top:50px;
+	
+}
+
+
+
+#Titulo_actividades p{
+	text-align:center;
+	color:white;
+	font-weight: bold;
+	font-family: fuente1;
+    font-size:22px;
+}	
+	
+
+.titumulti{
+	color: #e0840b;
+	font-family:fuente1;
+	text-align: center;
+
+}
+>>>>>>> 54d764262a5971a79a51b54c86d3614f8c9d43eb
