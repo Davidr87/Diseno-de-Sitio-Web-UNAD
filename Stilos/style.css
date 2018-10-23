@@ -317,10 +317,7 @@ div.subapartado:hover div.Info1{
 	margin-top:590px;
     position:absolute;
 	font-family: fuente1;
-<<<<<<< HEAD
-=======
     border-radius:20px;		
->>>>>>> 54d764262a5971a79a51b54c86d3614f8c9d43eb
 }
 
 #boton:hover{
@@ -329,7 +326,6 @@ div.subapartado:hover div.Info1{
 
 .miframe{
 	position:absolute;
-<<<<<<< HEAD
 	margin-top:100px;
 }
 
@@ -389,12 +385,6 @@ div.subapartado:hover div.Info1{
 	visibility: visible;
 	opacity: 1;
 }
-=======
-	margin-top:50px;
-	
-}
-
-
 
 #Titulo_actividades p{
 	text-align:center;
@@ -411,4 +401,9 @@ div.subapartado:hover div.Info1{
 	text-align: center;
 
 }
->>>>>>> 54d764262a5971a79a51b54c86d3614f8c9d43eb
+
+#logogit{
+	width: 650px;
+	position: center;
+}
+
