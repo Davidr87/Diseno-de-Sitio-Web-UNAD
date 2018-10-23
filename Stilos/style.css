@@ -319,25 +319,70 @@ div.subapartado:hover div.Info1{
 	margin-top:610px;
     position:absolute;
 	font-family: fuente1;
-		
 }
 
 #boton:hover{
 	background-color:#43C7F4;
-
-		
 }
-
-
 
 .miframe{
 	position:absolute;
 	margin-top:100px;
-	
 }
 
-.titumulti{
+.titulomulti{
 	color: #e0840b;
 	font-family:fuente1;
 	text-align: center;
+}
+
+
+.bodymulti{
+		color: #f1e5d4;
+		font-family:fuente1;
+		text-align: lift;
+		border: 10px;
+		font-size: 18px;
+		
+}
+
+.tooltip img{
+	width: 350px;
+	box-shadow: 20px 20px 15px black;
+}
+
+.tooltip {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visibility 1s;
+}
+
+.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family:fuente1;
+}
+
+.hori{
+	display: inline-block;
+	font-family:fuente1;
+}
+
+.hori a{
+	display: block;
+	padding: 8px;
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+.hori:hover a{
+	background-color: black;
+}
+
+.hori:hover .tooltip{
+	visibility: visible;
+	opacity: 1;
 }
