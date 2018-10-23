@@ -334,6 +334,7 @@ div.subapartado:hover div.Info1{
 	
 }
 
+<<<<<<< HEAD
 
 
 
@@ -345,4 +346,10 @@ div.subapartado:hover div.Info1{
     font-size:22px;
 	
 	
+=======
+.titumulti{
+	color: #e0840b;
+	font-family:fuente1;
+	text-align: center;
+>>>>>>> bf21ae637a6a539dddefa469d3ae69d9e85bbba5
 }
