@@ -402,6 +402,23 @@ div#carnet_foto{
 }
 
 
+div#carnet_foto2{
+	float:left;
+	margin-top:5px;
+	position:absolute;
+	margin-left:50px;
+	width:80px;
+	height:80px;
+	background: url(../img/DJTV.jpg)no-repeat; 
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+
+
+
 
 div#texto{
 	right:0;
