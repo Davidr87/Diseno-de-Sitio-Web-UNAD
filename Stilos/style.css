@@ -510,6 +510,13 @@ div#sellos{
 
 }
 
+.titumulti2{
+	color: #e03d0b;
+	font-family:fuente1;
+	text-align: center;
+	background-color: rgb(243, 189, 10)
+}
+
 #logogit{
 	width: 650px;
 	position: center;
@@ -536,6 +543,25 @@ div#sellos{
 	margin-left: 20px;
 	margin-right: 20px;
 	background-color: rgb(255, 102, 0)
-
 }
 
+.imagengiro:hover{
+	transition:1,5s;
+	transform:rotate(360deg);
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  
+  .imagengiro2:hover{
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+}
+  
+  
+  
