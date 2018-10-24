@@ -414,7 +414,18 @@ div#carnet_foto2{
 	background-position: center;
 
 }
+div#carnet_foto3{
+	float:left;
+	margin-top:5px;
+	position:absolute;
+	margin-left:50px;
+	width:80px;
+	height:80px;
+	background: url(../img/FrankL.jpg)no-repeat; 
+	background-size: cover;
+	background-position: center;
 
+}
 
 
 
