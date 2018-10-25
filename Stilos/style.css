@@ -546,7 +546,7 @@ div#sellos{
 }
 
 #logogit{
-	width: 650px;
+	width: 600px;
 	position: center;
 }
 
@@ -555,6 +555,14 @@ div#sellos{
 	position: center;
 	
 }	
+
+#divmulti1html{
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: rgb(13, 13, 14)
+}
 
 #divmulti2html{
 	margin: auto;
@@ -572,6 +580,13 @@ div#sellos{
 	margin-right: 20px;
 	background-color: rgb(255, 102, 0)
 }
+
+#divmulti4{
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: rgb(255, 102, 0)
 
 .imagengiro:hover{
 	transition:1,5s;
