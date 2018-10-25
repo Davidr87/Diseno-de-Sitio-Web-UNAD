@@ -557,7 +557,7 @@ div#sellos{
 }	
 
 #divmulti1html{
-	margin: auto;
+	margin: au;
 	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -587,6 +587,7 @@ div#sellos{
 	margin-left: 20px;
 	margin-right: 20px;
 	background-color: rgb(255, 102, 0)
+}
 
 .imagengiro:hover{
 	transition:1,5s;
@@ -596,7 +597,7 @@ div#sellos{
 	animation: flash 1.5s;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-  }
+}
 
   
   .imagengiro2:hover{
