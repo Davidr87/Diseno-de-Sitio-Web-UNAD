@@ -613,3 +613,31 @@ div#sellos{
     height:100%;
     width:100%;
 }
+
+#imgcentrada{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:none;
+	}
+
+.letralec5{
+	color: #ffffff;
+	font-family:fuente1;
+	text-align: center;
+	font-size: 20px
+}
+
+.letralec51{
+	color: #ffffff;
+	font-family:fuente1;
+	text-align: left;
+	font-size: 20px
+}
+
+.letralec52{
+	color: #ffffff;
+	font-family:fuente1;
+	text-align: center;
+	font-size: 25px
+}
