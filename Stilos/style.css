@@ -70,7 +70,7 @@ margin: 0px auto;
 	padding:0;
 }
 
-.#MemuPrincipal li a{
+#MemuPrincipal li a{
 	
 	background-color:#F47920;
 	width: 100%;
@@ -289,7 +289,7 @@ p.Info1{
 	margin:20px;
 	text-align:justify;
 	color:black;
-	-webkit-transition: height 0.2s;
+	-webkit-transition:height 0.2s;
 }
 
 div.subapartado:hover div.Info1{
